@@ -56,7 +56,6 @@ if __name__ == '__main__':
     )
     args = parser.parse_args()
 
-    # Test input
     if args.convert:
         # Instance the main Class
         app = Roman(digit=args.convert)
