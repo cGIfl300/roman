@@ -25,9 +25,9 @@ class Roman:
                        [5, "V"],
                        [4, "IV"],
                        [1, "I"]]
-        self.convert(digit=self.digit)
+        self.convert()
 
-    def convert(self, digit):
+    def convert(self):
         # Convert a digit into roman string
         try:
             digit = int(self.digit)
@@ -45,7 +45,6 @@ class Roman:
 
 
 if __name__ == '__main__':
-    to_try = 0
     # Add arguments management
     parser = argparse.ArgumentParser()
     parser.add_argument(
